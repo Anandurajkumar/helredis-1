@@ -256,7 +256,7 @@ master:
     limits: {}
     requests: 
       cpu: 25m
-      memory: 126Mi 
+      memory: 106Mi 
   ## Configure Pods Security Context
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod
   ## @param master.podSecurityContext.enabled Enabled Redis&reg; master pods' Security Context
@@ -654,8 +654,8 @@ replica:
     #   cpu: 250m
     #   memory: 256Mi
     requests: 
-       cpu: 250m
-       memory: 256Mi
+       cpu: 25m
+       memory: 106Mi
   ## Configure Pods Security Context
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-pod
   ## @param replica.podSecurityContext.enabled Enabled Redis&reg; replicas pods' Security Context
