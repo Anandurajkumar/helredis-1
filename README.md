@@ -1,1 +1,1 @@
-helm install redi-test bitnami/redis -f redis/values.yaml
+helm install redi-test redis -f redis/values.yaml
